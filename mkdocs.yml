@@ -1,0 +1,29 @@
+site_name: Selene
+site_url: 
+repo_url: https://github.com/cmagovuk/selene-core
+docs_dir: source
+edit_uri: edit/master/docs/source/
+theme:
+    name: material # mkdocs # readthedocs
+markdown_extensions:
+- toc:       
+    toc_depth: 1-5
+plugins:
+  - mkdocs-jupyter:
+      include: ["*.ipynb"] # Default: ["*.py", "*.ipynb"]
+  - mkdocstrings
+ 
+nav:
+    - "Home": index.md
+    - getting-started.md
+    - "The basics":
+        - basics/element_retrieval.ipynb
+        - basics/clicking_and_scrolling.ipynb
+    - "Website-specific functionality":
+        - websites/websites.ipynb
+    - "Contributing":
+        - contributing_code.ipynb
+        - contributing.ipynb
+    - "API":
+        - api/* #look at this
+    - CHANGELOG.md

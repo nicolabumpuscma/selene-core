@@ -70,6 +70,14 @@
     "   make serve-stop\n",
     "   ````"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f868a1b6-5ec8-40f7-bc4e-1a33f0950ce9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
